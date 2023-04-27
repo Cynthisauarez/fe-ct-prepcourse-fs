@@ -22,7 +22,7 @@ function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
-   Return str + "!"
+   return str + "!"
 }
 
 function combinarNombres(nombre, apellido) {
@@ -71,9 +71,7 @@ function esVocal(letra) {
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
-   if (letra.length > 1){
-      return "dato incorrecto" 
-   } else if (letra === "a" )
+   
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
